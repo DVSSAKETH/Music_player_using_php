@@ -3,9 +3,10 @@ session_start();
 
 // Database connection parameters
 $servername = "localhost";
-$username = "root"; // Replace with your database username
-$password = ""; // Replace with your database password
-$dbname = "music_player";
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
