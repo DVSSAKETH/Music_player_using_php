@@ -21,6 +21,10 @@ A simple PHP-based music player that allows users to register, log in, upload so
 - ├── styles.css # CSS for styling
 - ├── uploads/ # Directory for uploaded songs
 
+ ## Database Schema
+- Users Table: id, username, password, email.
+- Songs Table: id, title, artist, album, file_path.
+
 ## 📌 Usage
 - Register a new user.
 - Log in with your credentials.
