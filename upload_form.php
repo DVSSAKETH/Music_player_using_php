@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $password = $_POST['password'];
 
     // Check credentials
-    if ($username === 'admin' && $password === 'saketh') {
+    if ($username === 'admin' && $password === '<set any pass>') {
         $_SESSION['loggedin'] = true;
         header("Location: upload.php");
         exit;
