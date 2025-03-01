@@ -28,4 +28,3 @@ A simple PHP-based music player that allows users to register, log in, upload so
 - Play songs from music_player.php.
 
 
-Play songs from music_player.php.
