@@ -8,9 +8,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 }
 
 $servername = "localhost";
-$username = "root";
-$password = password ;
-$dbname = database name;
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
