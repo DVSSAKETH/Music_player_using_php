@@ -17,7 +17,6 @@ A simple PHP-based music player that allows users to register, log in, upload so
 - ├── upload.php # Script to handle song uploads
 - ├── music_player.php # Main music player page
 - ├── logout.php # Script to log out users
-- ├── db_connection.php # Database connection script
 - ├── styles.css # CSS for styling
 - ├── uploads/ # Directory for uploaded songs
 
